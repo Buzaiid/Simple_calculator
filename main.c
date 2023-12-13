@@ -40,7 +40,7 @@ int main(void)
 
     while (1) 
     {
-		//LCD_CLR_SCREEN();
+		LCD_CLR_SCREEN();
 		key_press=Keypad_read();
 		x = Get_num(key_press);
 		LCD_SEND_DATA(key_press);
